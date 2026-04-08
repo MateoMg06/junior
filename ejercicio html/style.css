@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+.nav  {
+    text-align: left;
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgba(204, 7, 7, 0.884);
+    border-radius: 10px;
+    text-align: center;
+    margin: -10px;
+    flex-direction: row-reverse;
+    justify-content: right;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   
+
+}
+.escudo{
+    
+    display: flex;
+    height: 95px;
+}
+
+ol {
+    
+    margin: 20px
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.banner_escudo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
